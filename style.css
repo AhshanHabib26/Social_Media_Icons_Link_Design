@@ -1,0 +1,111 @@
+
+.container{
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    justify-items: center;
+    flex-wrap: wrap;
+    height: 100vh;
+}
+
+.social_link ul{
+    padding: 0;
+    list-style: none;
+}
+
+.social_link ul li{
+    display: inline-block;
+    margin-right: 15px; 
+    margin-top: 20px; 
+}
+
+.social_link ul li i{
+    display: block;
+    width: 55px;
+    height: 40px;
+    border: 0;
+    outline: 0;
+    box-shadow: 0 4px 15px #025013;
+    border-radius: 100px;
+    padding-top: 15px;
+    font-size: 22px;
+    text-align: center;
+    transition: all 0.3s ease-in-out;
+    background-color: #ffffff;
+    cursor: pointer;
+
+}
+
+.social_link ul li i.fa-facebook{
+    color: #3A5693;
+}
+.social_link ul li i.fa-twitter{
+    color: #00A7E6;
+}
+.social_link ul li i.fa-instagram{
+    color: #BC507C;
+}
+.social_link ul li i.fa-linkedin{
+    color: #0270AD;
+}
+.social_link ul li i.fa-rss{
+    color: #FEA726;
+}
+.social_link ul li i.fa-google-plus{
+    color:#D74315;
+}.social_link ul li i.fa-quora{
+    color: #E54A43;
+}.social_link ul li i.fa-reddit{
+    color: #FE4500;
+    
+}.social_link ul li i.fa-pinterest{
+    color: #C31D24;
+    
+}.social_link ul li i.fa-dribbble{
+    color: #E9508E;
+    
+}.social_link ul li i.fa-behance:hover{
+    color: #105BF1;
+
+}
+
+.social_link ul li i.fa-facebook:hover{
+    background: #3A5693;
+    color: #ffffff;
+}
+.social_link ul li i.fa-twitter:hover{
+    background: #00A7E6;
+    color: #ffffff;
+}
+.social_link ul li i.fa-instagram:hover{
+    background: #BC507C;
+    color: #ffffff;
+}
+.social_link ul li i.fa-linkedin:hover{
+    background: #0270AD;
+    color: #ffffff;
+}
+.social_link ul li i.fa-rss:hover{
+    background-color: #FEA726;
+    color: #fff;
+}
+.social_link ul li i.fa-google-plus:hover{
+    background-color:#D74315;
+    color: #fff;
+}.social_link ul li i.fa-quora:hover{
+    background-color: #E54A43;
+    color: #fff;
+}.social_link ul li i.fa-reddit:hover{
+    background-color: #FE4500;
+    color: #fff;
+}.social_link ul li i.fa-pinterest:hover{
+    background-color: #C31D24;
+    color: #fff;
+}.social_link ul li i.fa-dribbble:hover{
+    background-color: #E9508E;
+    color: #fff;
+}.social_link ul li i.fa-behance:hover{
+    background-color: #105BF1;
+    color: #fff;
+}
+
